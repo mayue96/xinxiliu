@@ -1,0 +1,6 @@
+<view class="container">
+<view class="box" style="background:rgb({{r}},{{g}},{{b}})"></view>
+<slider data-color="r" min = "0" max="255" value="{{r}}" show-value bindchanging="setColor"></slider>
+<slider data-color="g" min = "0" max="255" value="{{g}}" show-value bindchanging="setColor"></slider>
+<slider data-color="b" min = "0" max="255" value="{{b}}" show-value bindchanging="setColor"></slider>
+</view>

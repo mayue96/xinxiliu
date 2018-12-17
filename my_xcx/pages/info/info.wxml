@@ -1,0 +1,5 @@
+<view>
+  <view class="title">{{name}}</view>
+  <image wx:if="{{pic != ''}}" src="http://127.0.0.1/images/{{pic}}"></image>
+  <view class="info">{{info}}</view>
+</view>

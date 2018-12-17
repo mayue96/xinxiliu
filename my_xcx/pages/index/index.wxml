@@ -1,0 +1,4 @@
+<view class="container">
+{{a}}
+<button bindtap="jia">+</button>
+</view>

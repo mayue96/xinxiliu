@@ -1,0 +1,8 @@
+<view class="container">
+<textarea bindblur="bindTextAreaBlur" placeholder="随便填点什么吧" value='{{content}}' bindinput='changeContent'/>
+<view class='{{content.length>40 ? "warn" : ""}}'>字数：{{content.length}}/40字</view>
+<view class='box'>
+<button disabled='{{content.length > 40 || content.length == 0}}' type='primary'>发布</button>
+<button disabled='{{content.length == 0}}' type='warn'>清空</button>
+</view>
+</view>

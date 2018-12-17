@@ -1,0 +1,14 @@
+textarea{
+  border: 1px solid black;
+  margin: 20px auto;
+}
+.box{
+  display:flex
+}
+button{
+  flex:1;
+  margin:30rpx;
+}
+.warn{
+  color : red
+}

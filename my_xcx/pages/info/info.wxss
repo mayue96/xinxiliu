@@ -1,0 +1,16 @@
+/* pages/info/info.wxss */
+view{
+  font-family : "微软雅黑";
+  text-align : center
+}
+.title{
+  width:20%;
+  margin:20px auto;
+  font-weight: bold;
+}
+.info{
+  font-size:16px;
+  line-height:26px;
+  text-align : left;
+  margin:25px
+}

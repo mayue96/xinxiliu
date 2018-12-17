@@ -1,0 +1,19 @@
+<!--pages/index4/index4.wxml-->
+<view class='container'>
+  <!-- 检索区域 -->
+  <view class="search">
+    <input bindconfirm="searchContent"></input>
+    <button bindtap='clear' wx:if="{{searchContent != ''}}">清空</button>
+  </view>
+  <!-- 可滚动区域 -->
+  <scroll-view scroll-y style="height:{{wh}}px" bindscrolltolower="tolower">
+    <!-- 信息盒子 -->
+    <view data-id="{{item.id}}" bindtap='toInfo' class="box" wx:for="{{hua}}" wx:key="index">
+      <view class="zuo">
+        <image src='http://127.0.0.1/images/{{item.pic}}'></image>
+        {{item.name}}
+      </view>
+      <view class="you">{{item.f_language}}</view>
+    </view>
+  </scroll-view>
+</view>
